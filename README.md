@@ -1,7 +1,7 @@
 # Customer Segmentation Project:
 
 <p align="center">
-  <img src="https://archive.ics.uci.edu/static/public/default/Large.jpg" alt="Instacart" height="150">
+  <img src="https://datahub.aalto.fi/sites/g/files/flghsv296/files/styles/1_464w_464h_d/public/2021-11/Logo_ucimlr.png" alt="uci" height="150">
 </p>
 
 ## Overview
