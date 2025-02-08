@@ -1,26 +1,24 @@
-# Customer Segmentation Project:
+## Customer Segmentation Project:
 
 <p align="center">
-  <img src="https://towardsdatascience.com/wp-content/uploads/2019/01/1z55Hi1HtLpdBhhPQbS9rZQ.gif" alt="uci" height="150">
+  <img src="https://towardsdatascience.com/wp-content/uploads/2019/01/1z55Hi1HtLpdBhhPQbS9rZQ.gif" alt="uci" height="120">
 </p>
 
-## Overview
+### Overview
 This project leverages transactional data from a UK-based non-store online retail company to perform **customer segmentation** using data mining techniques. The goal is to identify meaningful customer groups by analyzing purchasing behaviors, using features like transaction frequency, spending patterns, and product preferences.
 
 The dataset spans transactions between **December 1, 2010**, and **December 9, 2011**, and consists of purchase history data for customers, product details, and transaction information.
 
----
 
-## Dataset Information
+### Dataset Information
 - **Dataset Name**: Online Retail Dataset  
 - **Source**: Transactional data for a UK-based non-store online retail company  
 - **Size**: 541,909 transactions  
 - **Features**: 6 features (categorical and numerical)  
 - **Temporal Span**: December 1, 2010 - December 9, 2011  
 
----
 
-## Dataset Features  
+### Dataset Features  
 
 The dataset contains the following features:
 
@@ -35,9 +33,8 @@ The dataset contains the following features:
 | **CustomerID**     | Feature      | Categorical   | A unique 5-digit identifier for each customer    |  
 | **Country**        | Feature      | Categorical   | Country where the customer resides               |  
 
----
 
-## Objectives
+### Objectives
 The main goals of this project are to:
 
 1. **Understand Customer Behavior**: Analyze purchasing frequency, spending patterns, and product preferences over time.
@@ -45,9 +42,8 @@ The main goals of this project are to:
 3. **Identify Key Patterns**: Explore patterns like high-frequency purchases, high spending, seasonal trends, and product preferences.
 4. **Build Insights**: Extract actionable insights from customer clusters to inform marketing strategies, inventory management, and targeted offers.
 
----
 
-## Key Tasks
+### Key Tasks
 1. **Data Preprocessing**:
    - Handle any inconsistencies or incorrect data entries (even though the data has no missing values).
    - Transform categorical features into numerical representations if necessary.
@@ -70,7 +66,7 @@ The main goals of this project are to:
 
 ---
 
-## Data Analysis Tools & Technologies
+### Data Analysis Tools & Technologies
 The following tools and libraries will be used throughout the project:
 
 - **Python Libraries**: `pandas`, `numpy`, `matplotlib`, `seaborn`, `sklearn`
@@ -79,9 +75,24 @@ The following tools and libraries will be used throughout the project:
 - **Data Processing**: pandas, NumPy
 - **Time-Series Analysis**: pandas time-based indexing  
 
+
+### Results
+
+**3 Clusters**
+
+![3](./img/3_cluster.png)
+
+**5 Clusters**
+
+![5](./img/5_cluster.png)
+
+**7 Clusters**
+
+![7](./img/7_cluster.png)
+
 ---
 
-## Dependencies
+### Dependencies
 You will need the following Python packages:
 - `pandas`
 - `numpy`
