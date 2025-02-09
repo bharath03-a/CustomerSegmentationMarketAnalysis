@@ -64,7 +64,6 @@ The main goals of this project are to:
 5. **Visualization**:
    - Use visualization tools (e.g., Tableau, matplotlib, seaborn) to communicate key findings.
 
----
 
 ### Data Analysis Tools & Technologies
 The following tools and libraries will be used throughout the project:
